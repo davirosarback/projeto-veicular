@@ -59,10 +59,25 @@
                         </ul> 
                         </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit"> <i class="bi bi-search"></i></button>
-                </form>
+                <div class="formulario-busca">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" autocomplete="off" placeholder="Pesquisar" aria-label="Search" id="myInput"  placeholder="Busca" >
+                    <button class="btn btn-outline-success" onclick="myFunction()" type="submit"> <i class="bi bi-search"></i></button>
+  
+                      <!-- Resulados -->
+                      <div class="resultado-busca">
+                                          
+                    <ul id="myUL">
+                        <li><a href="gravadores/mvd1404.html">MVD 1404</a></li>
+                        <li><a href="gravadores/mvd3404g.html">MVD 3404 G</a></li>
+                        <li><a href="gravadores/mvd3404w.html">MVD 3404 W</a></li>
+                        <li><a href="gravadores/mvd3404gw.html">MVD 3404 GW</a></li>
+                        <li><a href="gravadores/mvd5404gw.html">MVD 5405 GW</a></li>
+                     </ul>
+                    </div>
+                  </form>
+                </div>
+                
               </div>
             </div>
           </nav>
@@ -92,7 +107,7 @@
              
           
            
-    
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
